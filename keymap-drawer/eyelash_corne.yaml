@@ -27,7 +27,7 @@ layers:
   - J
   - K
   - L
-  - '&u 00E8'
+  - è
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:apple-keyboard-control$$
   - Z
