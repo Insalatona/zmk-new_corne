@@ -26,7 +26,7 @@
     trigger-period-ms = <16>;
 };
 
-/ {
+& {
     behaviors {
         td0: td0 {
             compatible = "zmk,behavior-tap-dance";
@@ -60,7 +60,6 @@
         compatible = "zmk,behavior-sensor-rotate";
         #sensor-binding-cells = <0>;
         bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
-
         tap-ms = <100>;
     };
 
@@ -71,13 +70,10 @@
             display-name = "QWERTY";
             bindings = <
 &kp TAB    &kp Q  &kp W  &kp E     &kp R  &kp T                               &kp UP                &kp Y        &kp U  &kp I      &kp O    &kp P     &kp BSPC
-&td0       &kp A  &kp S  &kp D     &kp F  &kp G                     &kp LEFT  &kp ENTER  &kp RIGHT  &kp H        &kp J  &kp K      &kp L    &u 00E8  &u 00F2
-&kp LCTRL  &kp Z  &kp X  &kp C     &kp V  &kp B        &kp SPACE              &kp DOWN              &kp N        &kp M  &kp COMMA  &kp DOT  &kp FSLH  &u 00EC
+&td0       &kp A  &kp S  &kp D     &kp F  &kp G                     &kp LEFT  &kp ENTER  &kp RIGHT  &kp H        &kp J  &kp K      &kp L    &u 0x00E8 &u 0x00F2
+&kp LCTRL  &kp Z  &kp X  &kp C     &kp V  &kp B        &kp SPACE              &kp DOWN              &kp N        &kp M  &kp COMMA  &kp DOT  &kp FSLH  &u 0x00EC
                          &kp LGUI  &mo 1  &lt 3 SPACE                                               &lt 3 ENTER  &mo 2  &kp ESC
             >;
-
-            // sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
-
             sensor-bindings = <&inc_dec_kp N2 N1>;
         };
 
@@ -85,11 +81,10 @@
             display-name = "NUMBER";
             bindings = <
 &trans  &kp N1           &kp N2          &kp N3        &kp N4        &kp N5                                         &mmv MOVE_UP                     &kp N6           &kp N7           &kp N8           &kp N9           &kp N0    &kp BSPC
-&trans  &kp MINUS  &kp EQUAL    &mkp LCLK  &mkp MCLK   &mkp RCLK                   &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LBKT         &kp RBKT         &kp SEMI           &kp SQT        &u 00E0  &u 00F9
+&trans  &kp MINUS  &kp EQUAL    &mkp LCLK  &mkp MCLK   &mkp RCLK                   &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LBKT         &kp RBKT         &kp SEMI           &kp SQT        &u 0x00E0  &u 0x00F9
 &trans  &kp TILDE  &rgb_ug RGB_ON  &rgb_ug RGB_OFF        &rgb_ug RGB_ON        &rgb_ug RGB_EFF  &kp C_MUTE                    &mmv MOVE_DOWN                   &kp BSLH  &rgb_ug RGB_SPI  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp SLASH   &kp PG_UP
                                          &trans        &trans        &trans                                                                          &kp INS          &kp DEL          &trans
             >;
-
             sensor-bindings = <&scroll_encoder>;
         };
 
@@ -97,11 +92,10 @@
             display-name = "SYMBOL";
             bindings = <
 &trans  &kp EXCL      &kp AT        &kp HASH   &kp DLLR   &kp PRCNT                            &mmv MOVE_UP                     &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &kp BSPC
-&trans  &u 005F    &u 002B     &mkp LCLK  &mkp MCLK  &mkp RCLK             &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LCBR  &kp RCBR  &kp COLON   &kp DQT  &kp BSLH  &kp GRAVE
+&trans  &u 0x005F    &u 0x002B     &mkp LCLK  &mkp MCLK  &mkp RCLK             &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LCBR  &kp RCBR  &kp COLON   &kp DQT  &kp BSLH  &kp GRAVE
 &trans  &out OUT_USB  &out OUT_BLE  &none      &none      &mkp MB5   &trans                    &mmv MOVE_DOWN                   &kp PIPE  &kp UP   &kp LEFT   &kp DOWN  &kp RIGHT  &kp PG_DN
                                     &trans     &trans     &kp SPACE                                                             &kp RET    &trans     &trans
             >;
-
             sensor-bindings = <&scroll_encoder>;
         };
 
@@ -113,7 +107,6 @@
 &trans          &sys_reset  &trans     &bootloader  &trans     &mkp MB5  &kp C_MUTE                    &mmv MOVE_DOWN                   &trans       &trans     &bootloader  &sys_reset  &kp SCROLLLOCK   &kp PAUSE_BREAK
                                        &trans       &trans     &trans                                                                   &trans       &trans     &trans
             >;
-
             sensor-bindings = <&scroll_encoder>;
         };
     };
