@@ -27,8 +27,8 @@ layers:
   - J
   - K
   - L
-  - '&u 00E8'
-  - '&u 00F2'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:apple-keyboard-control$$
   - Z
   - X
@@ -42,7 +42,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - '&u 00EC'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - LGUI
   - NUMBER
   - {t: '$$mdi:keyboard-space$$', h: Fn}
@@ -76,8 +76,8 @@ layers:
   - {t: ']', s: '}'}
   - {t: ;, s: ':'}
   - {t: '''', s: '"'}
-  - '&u 00E0'
-  - '&u 00F9'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - '~'
   - RGB ON
@@ -113,8 +113,8 @@ layers:
   - )
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&u 005F'
-  - '&u 002B'
+  - _
+  - +
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-scroll-wheel$$
   - $$mdi:mouse-right-click-outline$$
