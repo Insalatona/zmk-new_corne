@@ -50,7 +50,7 @@ layers:
   - SYMBOL
   - $$mdi:keyboard-esc$$
   NUMBER:
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:keyboard-esc$$
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
