@@ -14,7 +14,7 @@ layers:
   - O
   - P
   - {t: '$$mdi:backspace$$', type: backspace}
-  - '&td0'
+  - $$mdi:apple-keyboard-shift$$
   - A
   - S
   - D
@@ -88,9 +88,9 @@ layers:
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: \, s: '|'}
   - RGB SPI
-  - RGB BRI
-  - RGB BRD
-  - {t: /, s: '?'}
+  - <
+  - '>'
+  - '?'
   - PG DN
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
