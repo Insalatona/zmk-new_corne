@@ -27,7 +27,7 @@ layers:
   - J
   - K
   - L
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '?'
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:apple-keyboard-control$$
   - Z
