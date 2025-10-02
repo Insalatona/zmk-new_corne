@@ -71,7 +71,7 @@
             bindings = <
 &kp ESC  &kp N1     &kp N2          &kp N3           &kp N4          &kp N5                                         &mmv MOVE_UP                     &kp N6    &kp N7           &kp N8         &kp N9            &kp N0     &kp BSPC
 &trans   &kp MINUS  &kp EQUAL       &kp LBKT        &kp RBKT       &kp SEMI                      &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LBKT  &kp RBKT         &kp SEMI       &kp SQT           &none      &kp PG_UP
-&trans   &kp TILDE  &caps_word  &mkp LCLK  &mkp MCLK   &mkp RCLK   &kp C_MUTE                    &mmv MOVE_DOWN                   &kp BSLH  &rgb_ug RGB_SPI  &kp LESS_THAN  &kp GREATER_THAN  &kp QMARK  &kp PG_DN
+&trans   &kp TILDE  &caps_word  &mkp LCLK  &mkp MCLK   &mkp RCLK   &kp C_MUTE                    &mmv MOVE_DOWN                   &kp BSLH  &rgb_ug RGB_SPI  &kp LT &kp GT  &kp QUESTION  &kp PG_DN
                                     &trans           &trans          &trans                                                                          &kp INS   &kp DEL          &trans
             >;
 
