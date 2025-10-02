@@ -83,7 +83,7 @@
             bindings = <
 &kp TAB  &kp EXCL      &kp AT        &kp HASH      &kp DLLR   &kp PRCNT                            &mmv MOVE_UP                     &kp CARET  &kp AMPS  &kp ASTRK  &kp LPAR  &kp RPAR   &kp BSPC
 &trans   &kp UNDER     &kp PLUS      &mkp LCLK     &mkp MCLK  &mkp RCLK            &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LBRC   &kp RBRC  &kp COLON  &kp SQT   &kp BSLH   &kp GRAVE
-&bt BT_CLR   &bt BT_SEL 0  &rgb_ug RGB_ON   &rgb_ug RGB_OFF   &rgb_ug RGB_EFF   &trans                    &mmv MOVE_DOWN  &kp PIPE   &kp LEFT  &kp UP     &kp DOWN  &kp RIGHT  &kp PG_DN
+&trans   &trans  &rgb_ug RGB_ON   &rgb_ug RGB_OFF   &rgb_ug RGB_EFF   &trans                    &mmv MOVE_DOWN  &kp PIPE   &kp LEFT  &kp UP     &kp DOWN  &kp RIGHT  &kp PG_DN
                                      &kp LEFT_ALT  &trans     &kp SPACE                                                             &kp RET    &trans    &trans
             >;
 
