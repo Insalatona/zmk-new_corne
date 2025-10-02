@@ -70,8 +70,8 @@
             display-name = "NUMBER";
             bindings = <
 &kp ESC  &kp N1     &kp N2          &kp N3           &kp N4          &kp N5                                         &mmv MOVE_UP                     &kp N6    &kp N7           &kp N8         &kp N9            &kp N0     &kp BSPC
-&trans   &kp MINUS  &kp EQUAL       &kp LBKT        &kp RBKT       &kp SEMI                      &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LBKT  &kp RBKT         &kp SEMI       &kp SQT           &none      &kp PG_UP
-&trans   &kp TILDE  &caps_word  &mkp LCLK  &mkp MCLK   &mkp RCLK   &kp C_MUTE                    &mmv MOVE_DOWN                   &kp BSLH  &rgb_ug RGB_SPI  &kp LT &kp GT  &kp QUESTION  &kp PG_DN
+&trans   &kp MINUS  &kp EQUAL       &kp LBKT        &kp RBKT       &kp SEMI                      &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT      &kp LBKT  &kp RBKT         &kp SEMI       &kp SQT           &none      &kp PG_UP
+&trans   &kp TILDE  &caps_word  &mkp LCLK  &mkp MCLK   &mkp RCLK   &kp C_MUTE                                    &mmv MOVE_DOWN                       &kp BSLH  &rgb_ug RGB_SPI  &kp LT         &kp GT  &kp QUESTION  &kp PG_DN
                                     &trans           &trans          &trans                                                                          &kp INS   &kp DEL          &trans
             >;
 
@@ -83,7 +83,7 @@
             bindings = <
 &kp TAB  &kp EXCL      &kp AT        &kp HASH      &kp DLLR   &kp PRCNT                            &mmv MOVE_UP                     &kp CARET  &kp AMPS  &kp ASTRK  &kp LPAR  &kp RPAR   &kp BSPC
 &trans   &kp UNDER     &kp PLUS      &mkp LCLK     &mkp MCLK  &mkp RCLK            &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LBRC   &kp RBRC  &kp COLON  &kp SQT   &kp BSLH   &kp GRAVE
-&trans   &trans  &rgb_ug RGB_ON   &rgb_ug RGB_OFF   &rgb_ug RGB_EFF   &trans                    &mmv MOVE_DOWN  &kp PIPE   &kp LEFT  &kp UP     &kp DOWN  &kp RIGHT  &kp PG_DN
+&trans   &trans  &rgb_ug RGB_ON   &rgb_ug RGB_OFF   &rgb_ug RGB_EFF   &trans &trans                    &mmv MOVE_DOWN                      &kp PIPE   &kp LEFT  &kp UP     &kp DOWN  &kp RIGHT  &kp PG_DN
                                      &kp LEFT_ALT  &trans     &kp SPACE                                                             &kp RET    &trans    &trans
             >;
 
